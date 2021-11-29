@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const botonSaludo = document.createElement("INPUT");
-botonSaludo.type = "input";
-botonSaludo.textContent = "hazme click";
+botonSaludo.type = "button";
+botonSaludo.value = "hazme click";
 
 botonSaludo.addEventListener("click",function(ev)
 {
